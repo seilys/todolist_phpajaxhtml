@@ -1,0 +1,28 @@
+#tasklist {
+    margin-top: 1em;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+#tasklist th {
+    background-color: grey;
+    color: white;
+}
+
+#tasklist td, #tasklist th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.col0 {
+    width: 20em;
+    text-align: left;
+    border-right: solid 1px;
+}
+
+.col1 .col2 {
+    margin-right:10px;
+    width: 10em;
+    text-align: center;
+    align-content: center;
+}
